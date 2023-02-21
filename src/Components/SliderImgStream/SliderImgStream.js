@@ -1,3 +1,4 @@
+import React,{Component} from 'react'
 import './SliderImgStream.css'
 import {SectionWrapper ,SectionHeader,SectionNextHeader} from '../index'
 
@@ -7,24 +8,27 @@ import 'owl.carousel/dist/assets/owl.theme.default.css'
 
 import {FeatureGameCard }from '../index'
 import FeaturedGame from '../../Data/DataFatureGame'
-const SliderImgStream = () => {
-    
+class SliderImgStream extends React.Component{
+    render(){
     const FeaturedData =FeaturedGame.map(data=>{
         return(
             <FeatureGameCard key={data.id} imge={data.imge} title={data.title} category={data.category} rate={data.rate} download={data.download} />
         )
     })
-    const option={
-     
+    const state={
+           
+        responsiveClass:true,
+        nav:false,
+        loop:false,
           responsive:{
-              0:{
+              500:{
                   items:1
               },
-              600:{
-                  items:3
+              792:{
+                  items:2
               },
-              1000:{
-                  items:5
+              1200:{
+                  items:3
               }
           }
     }
@@ -33,7 +37,7 @@ const SliderImgStream = () => {
     <SectionWrapper>
         <SectionHeader>Live </SectionHeader> <SectionNextHeader>Streams</SectionNextHeader>
 
-           <OwlCarousel items={3} className="owl-theme" loop nav margin={5} autoplay={true} >
+           <OwlCarousel items={3} className="owl-theme" loop nav margin={5} autoplay={true} responsive={state.responsive}>
                 {FeaturedData }
             
            </OwlCarousel>
@@ -42,6 +46,7 @@ const SliderImgStream = () => {
     </SectionWrapper>
     
   )
+    }
 }
 
 export default SliderImgStream;
