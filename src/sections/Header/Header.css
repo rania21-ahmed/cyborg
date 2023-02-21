@@ -1,0 +1,28 @@
+.nav-item{
+    padding:0px calc( var(--padding-primary)/3 )
+}
+.nav-link:hover{
+    color:var(--color-primary)
+}
+.nav-link2:hover{
+    color:#fff
+}
+
+.profile-btn{
+    color:var(--color-light);
+    background-color: var(--color-dark);
+    border-radius: var(--border-raduis-primary);
+   
+}
+.profile-btn:hover{
+    background-color: var(--color-primary);
+}
+
+.imgProfile{
+    display:inline;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.activee{
+    color:var(--color-primary)
+}

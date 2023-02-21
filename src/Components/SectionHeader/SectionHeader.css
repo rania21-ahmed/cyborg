@@ -1,0 +1,35 @@
+.section-header{
+    display: inline-block;
+}
+.section-header h4{
+    font-size: 36px;
+    font-weight: var(--font-weight-bold);
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+@media (min-width:500px){
+    .section-header h4{
+        font-size: 25px;
+    }
+}
+
+@media (min-width:792px){
+    .section-header h4{
+        font-size: 30px;
+    }
+}
+
+@media (min-width:1200px){
+    .section-header h4{
+        font-size: 36px;
+
+    }
+}
+
+@media (min-width:1300px){
+    .section-header h4{
+        font-size: 40px;
+
+    }
+}

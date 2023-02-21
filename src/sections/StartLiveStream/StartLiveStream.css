@@ -1,0 +1,28 @@
+@media (min-width:500px){
+    .main-streamCard {
+        margin-bottom: 1.5rem;
+        /* font-size:0.8rem */
+    }
+    .stream-card-p{
+        font-size: 0.8rem;
+    }
+}
+
+@media (min-width:792px){
+    .stream-card-p{
+        font-size: 1rem;
+    }
+}
+
+@media (min-width:1200px){
+    .stream-card-p{
+        font-size: 1.1rem;
+    }
+}
+
+@media (min-width:1300px){
+    .next-header {
+        font-size: 40px;
+        
+    }
+}

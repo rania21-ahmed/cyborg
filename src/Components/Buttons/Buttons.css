@@ -1,0 +1,83 @@
+.button{
+    font-size: 0.9rem;
+    transition: all 0.3s ;
+    padding:calc(var(--padding-primary)/2) 0;
+
+}
+
+.promary-btn a{
+    background-color: var(--color-primary);
+    padding:calc( var(--padding-primary)/3) calc( var(--padding-primary) );
+    border-radius:calc( var(--border-raduis-primary)*2);
+    color: var(--color-light);
+    letter-spacing: 0.08rem;
+}
+.promary-btn a:hover {
+    background-color: var(--color-light);
+    color: var(--color-primary);
+}
+
+.secondary-btn a{
+    border: 1px solid var(--color-primary);
+    padding:calc( var(--padding-primary) /3) calc( var(--padding-primary) );
+    border-radius:calc( var(--border-raduis-primary)*2);
+    color: var(--color-light);
+}
+
+.secondary-btn a:hover{
+    color: var(--color-primary);
+    background-color: var(--color-light);
+}
+
+.th3-btn a{
+    background-color: var(--color-primary);
+    padding:calc( var(--padding-primary) /4) calc( var(--padding-primary) /2);
+    border-radius:calc( var(--border-raduis-primary)*2);
+    color: var(--color-light);
+}
+
+.th3-btn a:hover {
+    
+    background-color: var(--color-light);
+    color: var(--color-primary);
+}
+
+
+@media (min-width:500px){
+
+    .button{
+        font-size: 0.7rem;
+    }
+
+    .promary-btn a{
+        padding:calc( var(--padding-primary)/5) calc( var(--padding-primary)/3);
+        border-radius:calc( var(--border-raduis-primary)*2);
+    
+    }
+}
+
+@media (min-width:792px){
+    .button{
+        font-size: 0.8rem;
+    }
+    .promary-btn a{
+        padding:calc( var(--padding-primary)/4) calc( var(--padding-primary)/2);
+        border-radius:calc( var(--border-raduis-primary)*2);
+    
+    }
+}
+
+@media (min-width:1200px){
+    .promary-btn a{
+        padding:calc( var(--padding-primary)/3) calc( var(--padding-primary));
+        border-radius:calc( var(--border-raduis-primary)*2);
+    
+    }
+}
+
+@media (min-width:1300px){
+    .button{
+        font-size: 0.9rem;
+
+    }
+}

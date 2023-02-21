@@ -1,0 +1,15 @@
+.stream-card{
+    border:1px solid #777;
+    border-radius: var(--border-raduis-primary);
+}
+
+.stream-card-img{
+    border-radius: 50%;
+}
+
+.stream-card-p{
+    color:#555;
+    font-size:1.2rem;
+    line-height: 1.9rem;
+    
+}

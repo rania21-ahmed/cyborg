@@ -1,0 +1,41 @@
+.idNum{
+    font-size: 20px;
+    font-weight: bold;
+}
+.divImgStream{
+    padding-right: 0;
+}
+.imgTopStream{
+    border-radius: 50%;
+    
+}
+.iconBrows{
+    font-size: 20px;
+}
+.icon-text-topStream{
+    font-size: 16px;
+    color: var(--color-primary);
+    padding:5% 0
+}
+hr:nth-child(5){
+    visibility: hidden;
+}
+
+@media (max-width:750px){
+    .div-strem1{
+        width: 10%;
+    }
+    .div-strem2{
+        width: 30%;
+    }
+    .div-strem3{
+        width: 60%;
+        text-align: end;
+    }
+    .btn-follow{
+        width: 30%;
+        margin: 0 auto;
+
+    }
+    
+}

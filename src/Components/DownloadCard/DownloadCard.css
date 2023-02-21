@@ -1,0 +1,39 @@
+.img-download{
+    border-radius: var(--border-raduis-primary);
+    
+}
+.span-title{
+    font-size:20px;
+    display:block
+}
+.download{
+    line-height:0.9rem
+}
+.icon-d{
+    font-size: 20px;
+}
+.icon-right-d{
+    color:var(--color-primary);
+    background-color: var(--color-dark);
+    border-radius: var(--border-raduis-primary);
+    font-size: 20px;
+    padding: 15px;
+}
+
+
+@media (min-width:500px){
+    .card-download-browse-img {
+       width:25%
+        
+    }
+    .card-download-browse-center {
+        width:50%
+         
+     }
+     .card-download-browse-icon {
+        width:25%;
+        margin: 0;
+         
+     }
+}
+

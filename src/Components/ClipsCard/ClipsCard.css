@@ -1,0 +1,14 @@
+.clips-card{
+    border-radius:var(--border-raduis-primary) ;
+    background-color: var(--color-dark);
+}
+.img-clips{
+    border-radius:var(--border-raduis-primary) ;
+}
+.clip-text{
+    font-size: medium;
+    margin-bottom: 10px;
+}
+.spaniconClip{
+    color:var(--color-primary)
+}

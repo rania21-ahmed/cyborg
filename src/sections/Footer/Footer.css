@@ -1,0 +1,15 @@
+footer p {
+    text-align: center;
+    padding: var(--padding-primary);
+    color: #fff;
+    font-weight: var(--font-weight-normal);
+  }
+  
+  footer p a {
+    color: #fff;
+    transition: all .3s;
+  }
+  
+  footer p a:hover {
+    color:var(--color-primary) ;
+  }

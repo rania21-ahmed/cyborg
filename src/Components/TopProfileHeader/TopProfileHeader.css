@@ -1,0 +1,32 @@
+.imgProfiles{
+    border-radius:calc(var(--border-raduis-primary)/2);
+}
+.offlineProfile{
+    font-size: 1rem;
+    line-height: 2.5rem;
+}
+.offlineText{
+    background-color: var(--color-primary);
+    padding:calc(var(--padding-primary)/4) calc(var(--padding-primary)/3);
+    border-radius: var(--border-raduis-primary);
+    color:#fff;
+    cursor: text;
+}
+.offlineText:hover{
+    color:#fff
+}
+.offline-h3{
+    font-weight: 500;
+}
+.offline-p{
+    color:#777
+}
+/*****************/
+.div-right-progile{
+    background-color: var(--color-dark);
+    border-radius: var(--border-raduis-primary);
+    font-size: medium;
+}
+.row-right{
+    color:var(--color-primary)
+}

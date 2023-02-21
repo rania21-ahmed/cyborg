@@ -1,0 +1,30 @@
+.featureImg{
+    border-radius: var(--border-raduis-primary);
+   
+    
+}
+
+.featureheader{
+    text-align: center;
+    padding: var(--padding-primary);
+    font-weight: var(--font-weight-bold);
+    letter-spacing: 0.2rem;
+
+}
+
+
+@media (max-width: 992px) {
+    .img{
+        margin-top: calc(var(--margin-primary)/2);
+    }
+
+    .featureheader{
+        font-size: 1.4rem;
+        color:var(--color-primary);
+        padding: calc(var(--padding-primary)/2);
+    }
+    
+}
+
+    
+

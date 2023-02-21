@@ -1,0 +1,41 @@
+.details_img{
+    border-radius: var(--border-raduis-primary);
+    
+}
+.details_img{
+    max-width: 500px;
+    margin-bottom:calc( var(--margin-primary)/2)
+}
+.bottom-center-text-p{
+    font-size: 1.02rem;
+    line-height: 1.8rem;
+    color:#666;
+    padding: calc(var(--padding-primary)/2) 0;
+    /* letter-spacing: 2px; */
+}
+def{
+    color:#ccc
+}
+def:hover{
+    color:var(--color-primary)
+}
+
+.btn-center-details {
+    text-align: center;
+}
+
+.btn-down{
+   
+   color:#ddd;
+    font-size:1.5rem;
+    width: 100%;
+    border:1px solid var(--color-primary)
+}
+
+.btn-down:hover{
+   
+    color:var(--color-primary);
+     font-size:1.5rem;
+     border:1px solid var(--color-primary)
+ }
+ 

@@ -1,0 +1,51 @@
+.card-feature{
+    
+    padding:calc(var(--padding-primary)/4)  ;
+    max-width: 500px;
+    
+}
+
+.img-feature{
+    width: 100%;
+    border-radius:calc( var(--border-raduis-primary));
+    margin-bottom: 20px;
+    
+
+}
+
+.most-popular-item-content{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.most-popular-item-title,ul{
+    font-size: 14px;
+    line-height: 1.6rem;
+}
+
+/****************/
+.contain{
+    position: relative;
+    display: inline-block;
+}
+
+.overlay{
+    position: absolute;
+    transition: all .3s ease-in;
+    opacity: 0;
+    top:85%;
+    left:50%;
+}
+.text-overlay{
+    color: var(--color-primary);
+    position: absolute;
+    transform: translate(-50% ,-50%);
+    font-size: 1rem;
+    background-color: var(--color-dark);
+    padding:10px 20px;
+    border-radius: calc( var(--border-raduis-primary));
+}
+.contain:hover .overlay{
+    opacity: 1;
+}
